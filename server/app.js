@@ -1,6 +1,6 @@
 SearchSource.defineSource('packages', function(searchText, options) {
   var options = {sort: {isoScore: -1}, limit: 5};
-  console.log("searching package: ", searchText);
+  console.log("searching for: ", searchText);
 
   if(searchText) {
     var regExp = buildRegExp(searchText);
