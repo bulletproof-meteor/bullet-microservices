@@ -1,4 +1,4 @@
-SearchSource.defineSource('packages', function(searchText, options) {
+SearchSource.defineSource('packages', function(searchText) {
   var options = {sort: {isoScore: -1}, limit: 5};
   console.log("searching for: ", searchText);
 
